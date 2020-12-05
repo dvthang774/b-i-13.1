@@ -21,5 +21,5 @@ for root, dirs, files in os.walk('e:\\'):
     for name in dirs:
         t = (os.path.join(name))
         lst2.append(t)
-print("danh sánh file:\n ", lst1,              end='\n')
-print("danh sánh thư mục:\n ", lst2)#####
+print("list1:\n ", lst1)
+print("list2:\n ", lst2)#####
